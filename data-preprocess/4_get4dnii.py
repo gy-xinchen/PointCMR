@@ -2,6 +2,10 @@ import os
 import nibabel as nib
 import numpy as np
 
+"""
+    XX, [20, 512, 512] --> [XX, 20, 512, 512]
+"""
+
 def create_4d_nii(folder_path, output_path):
     files = [f for f in sorted(os.listdir(folder_path)) if f.endswith(".nii.gz")]
     files.sort(key=lambda x: int(x.split('E')[-1].split('.')[0]))
