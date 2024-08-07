@@ -1,0 +1,21 @@
+Preprocess-file structure
+we need to create three files, raw_dcm_file, nii_file, nii_4D_file
+
+root_dcm_path
+--patient001
+----SE0
+----SE1
+....
+----SE10
+--patient002
+----SE0
+----SE1
+....
+----SE10
+--patient003
+----SE0
+----SE1
+....
+----SE10
+-----------
+
