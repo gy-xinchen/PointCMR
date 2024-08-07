@@ -2,6 +2,10 @@ import SimpleITK as sitk
 import os
 import numpy as np
 
+"""
+    for resample image size, [25/30, 512,512] --> [20, 512, 512]
+"""
+
 
 folder_path = r"D:\CMR-res\4Dsegment-master\muti-center-dataset\repair_nii_data"
 target_shape = [20, 512, 512]
