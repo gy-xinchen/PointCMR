@@ -2,6 +2,10 @@ import os
 import SimpleITK as sitk
 import re
 
+"""
+Some sample have wrong dcm metadata，we use this code to repair this problem
+"""
+
 # sorted function
 def numerical_sort(value):
     parts = re.findall(r'\d+|\D+', value)
