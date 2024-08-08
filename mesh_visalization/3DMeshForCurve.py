@@ -2,6 +2,11 @@ import open3d as o3d
 import numpy as np
 import matplotlib.pyplot as plt
 
+"""
+    data [x,y,z,intensity]
+    to show 4D point cloud heart curve
+"""
+
 # read txt for point cloud
 def load_point_cloud_from_txt(txt_path):
     data = np.loadtxt(txt_path)
